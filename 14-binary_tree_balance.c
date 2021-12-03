@@ -20,8 +20,8 @@ size_t node_levels(const binary_tree_t *tree)
 		l_right = node_levels(tree->right);
 	if (l_left >= l_right)
 		return (levels + l_left);
-	 else
-		 return (levels + l_right);
+	else
+		return (levels + l_right);
 }
 
 /**
